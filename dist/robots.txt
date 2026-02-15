@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://optimasolar.co.ke/sitemap.xml

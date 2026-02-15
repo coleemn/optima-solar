@@ -1,0 +1,46 @@
+.trustBar {
+    background-color: var(--color-bg-light);
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--color-text-light);
+    font-weight: 500;
+}
+
+.icon {
+    color: var(--color-success);
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    font-size: 0.95rem;
+}
+
+@media (max-width: 900px) {
+    .container {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .feature {
+        width: 45%;
+        justify-content: flex-start;
+    }
+}

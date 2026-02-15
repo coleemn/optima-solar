@@ -1,0 +1,113 @@
+.section {
+    padding: 5rem 0;
+    background-color: white;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: var(--color-text-light);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 3rem;
+    align-items: start;
+}
+
+.mapContainer {
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    height: 100%;
+}
+
+.branchList {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-height: 600px;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+}
+
+.branchCard {
+    background-color: var(--color-bg-light);
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+    border-left: 4px solid var(--color-primary);
+}
+
+.branchCard:hover {
+    background-color: white;
+    box-shadow: var(--shadow-sm);
+    transform: translateX(5px);
+}
+
+.cityName {
+    font-size: 1.25rem;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text-light);
+    font-size: 0.95rem;
+}
+
+.icon {
+    color: var(--color-accent);
+    flex-shrink: 0;
+}
+
+.directionsBtn {
+    margin-top: 1rem;
+    background: transparent;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.85rem;
+    transition: all var(--transition-fast);
+}
+
+.directionsBtn:hover {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+
+    .mapContainer {
+        height: 300px;
+        order: -1;
+    }
+}
