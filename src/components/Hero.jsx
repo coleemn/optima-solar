@@ -12,7 +12,7 @@ const Hero = () => {
             <div className={styles.content}>
                 <div className={styles.textContent}>
                     <h1 className={styles.headline}>
-                        Power Your Home & Business with <span className={styles.highlight}>Reliable Solar Energy.</span>
+                        Power, your home & business with <span className={styles.highlight}>reliable solar energy.</span>
                     </h1>
                     <p className={styles.subheadline}>
                         Reduce electricity costs and achieve energy independence with expertly installed solar solutions across Kenya.
