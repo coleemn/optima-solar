@@ -31,11 +31,8 @@ const Hero = () => {
                             {showPhoneOptions && (
                                 <div className={styles.phoneDropdown}>
                                     <div className={styles.dropdownArrow}></div>
-                                    <a href="tel:+254752813176" className={styles.phoneOption}>
-                                        <Phone size={16} /> +254 752 813 176
-                                    </a>
-                                    <a href="tel:+254102378507" className={styles.phoneOption}>
-                                        <Phone size={16} /> +254 102 378 507
+                                    <a href="tel:+254780700584" className={styles.phoneOption}>
+                                        <Phone size={16} /> +254 780 700 584
                                     </a>
                                 </div>
                             )}
