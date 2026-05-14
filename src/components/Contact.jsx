@@ -16,7 +16,7 @@ const Contact = () => {
                                 <div className={styles.iconWrapper}><Phone size={24} /></div>
                                 <div>
                                     <h4>Call Us</h4>
-                                    <a href="tel:+254102378507">+254 780 700 584</a>
+                                    <a href="tel:+254 780 700 584">+254 780 700 584</a>
                                 </div>
                             </div>
 
