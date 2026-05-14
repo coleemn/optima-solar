@@ -37,9 +37,9 @@ const Navbar = () => {
                 </div>
 
                 <div className={styles.actions}>
-                    <a href="tel:+254752813176" className={styles.phoneLink}>
+                    <a href="tel:+254780700584" className={styles.phoneLink}>
                         <Phone size={20} />
-                        <span>+254 752 813 176</span>
+                        <span>+254 780 700 584</span>
                     </a>
                     <Link to="/contact" className={styles.ctaButton}>Get Free Quote</Link>
                     <button className={styles.menuToggle} onClick={toggleMenu} aria-label="Toggle menu">

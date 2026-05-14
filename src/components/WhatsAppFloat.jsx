@@ -11,20 +11,12 @@ const WhatsAppFloat = () => {
                 <div className={styles.dropdown}>
                     <div className={styles.dropdownArrow}></div>
                     <a
-                        href="https://wa.me/254752813176"
+                        href="https://wa.me/254780700584"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={styles.option}
                     >
-                        <MessageCircle size={16} /> +254 752 813 176
-                    </a>
-                    <a
-                        href="https://wa.me/254102378507"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={styles.option}
-                    >
-                        <MessageCircle size={16} /> +254 102 378 507
+                        <MessageCircle size={16} /> +254 780 700 584
                     </a>
                 </div>
             )}
