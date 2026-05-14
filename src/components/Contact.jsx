@@ -16,8 +16,7 @@ const Contact = () => {
                                 <div className={styles.iconWrapper}><Phone size={24} /></div>
                                 <div>
                                     <h4>Call Us</h4>
-                                    <a href="tel:+254102378507">+254 102 378 507</a>
-                                    <a href="tel:+254752813176">+254 752 813 176</a>
+                                    <a href="tel:+254102378507">+254 780 700 584</a>
                                 </div>
                             </div>
 
@@ -39,7 +38,7 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <a href="https://wa.me/254752813176" className={styles.whatsappBtn}>
+                        <a href="https://wa.me/254780700584" className={styles.whatsappBtn}>
                             <MessageCircle size={20} /> Chat on WhatsApp
                         </a>
                     </div>
